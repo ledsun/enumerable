@@ -1,7 +1,7 @@
-const source = [1, null, 2, 3, null, 4];
+const source = [0, 1, null, 2, 3, null, 4];
 
 const result = source
-  .filter((e) => e)
+  .filter((e) => e !== null)
   .map((e) => e * 10)
   .reduce(
     (acc, e) => {

@@ -1,4 +1,4 @@
-source = [1, nil, 2, 3, nil, 4]
+source = [0, 1, nil, 2, 3, nil, 4]
 
 result = source
   .find_all { _1 }

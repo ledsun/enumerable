@@ -1,4 +1,4 @@
-var source = new int?[] { 1, null, 2, 3, null, 4 };
+var source = new int?[] { 0, 1, null, 2, 3, null, 4 };
 
 var emptyHash = new Dictionary<int, List<int>> {
   { 0, new List<int>() },
