@@ -12,3 +12,5 @@ C#とJavaScriptとRubyのコレクション操作を比較するためのリポ�
 ```sh
 make
 ```
+
+![実行結果](./screenshot.png)
