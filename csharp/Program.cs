@@ -5,8 +5,7 @@ var emptyHash = new Dictionary<int, List<int>> {
   { 1, new List<int>() },
   { 2, new List<int>() }
 };
-var result = source.Where(x => x != null)
-                   .Select(x => x is null ? 0 : (int)(x))
+var result = source.OfType<int>()
                    .Select(x => x * 10)
                    .Aggregate(emptyHash, (acc, e) =>
                    {
